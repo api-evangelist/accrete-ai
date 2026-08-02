@@ -1,0 +1,49 @@
+generated: '2026-08-02'
+method: searched
+probe: true
+source: https://trust.accrete.ai/
+url: https://trust.accrete.ai/
+platform: SafeBase (accrete.portals.safebase.io)
+certifications:
+- SOC 2 Type 1
+- CMMC Certified
+- DoD IL4
+- ITAR
+- NDAA
+reports_available:
+- SOC 2 Report
+- Pentest Report
+- Network Diagram
+- Other Self-Assessments
+control_domains:
+- name: Access Control
+  controls: [Access Log Management, Internal Single-Sign-On (SSO), Least Privilege,
+    Multi-Factor Authentication, User Access Review, Session Termination, Remote Access,
+    Virtual Private Network (VPN)]
+- name: Application Security
+  controls: [Code Analysis, Software Development Lifecycle, Responsible Disclosure,
+    Credential Management, Vulnerability & Patch Management]
+- name: AI Governance
+  controls: [AI Governance, AI Overview, AI Risk Management, AI Security, Employee
+    AI Usage, AI System Development and Evaluation Policy]
+  note: Artificial Intelligence Management System (AIMS) Plan is listed in_progress.
+- name: Infrastructure
+  controls: [Amazon Web Services, Azure, Container Orchestration, Virtual Private Cloud,
+    Web Application Firewall, BC/DR, Status Monitoring]
+- name: Endpoint & Network Security
+  controls: [Anti-Malware, Disk Encryption, Endpoint Detection & Response, HIDS, HIPS,
+    Mobile Device Management, Threat Detection, Firewall, Data Loss Prevention]
+- name: Corporate
+  controls: [Cyber Insurance, Incident Response, Insider Threat Program, Supply Chain
+    Risk Management, Employee Training, Master Services Agreement, Service-Level Agreement]
+subprocessors:
+  published: false
+  note: SafeBase subprocessors section present but shows the default placeholder; contact
+    required for the list.
+contact: accrete.it@accrete.ai
+evidence:
+- source: https://trust.accrete.ai/
+  http_status: 200
+  fetched: '2026-08-02'
+  keywords: [soc 2, cmmc, dod il4, itar, ndaa, trust center, responsible disclosure,
+    subprocessor]

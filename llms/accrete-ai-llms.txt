@@ -1,0 +1,45 @@
+# Accrete
+
+> Accrete is a dual-use enterprise and government AI company (founded 2017, New York) that licenses Expert AI Agents built on its Knowledge Engine Platform. The platform turns human domain expertise and unstructured data into autonomously constructed knowledge graphs its agents reason over. Accrete does not publish a public developer API, SDK, or machine-readable API contract — products are licensed and delivered directly or through partner marketplaces such as Snowflake.
+
+Provenance: generated 2026-08-02 by the API Evangelist enrichment pipeline from apis.yml and this repository's artifacts. Accrete publishes no /llms.txt of its own (https://www.accrete.ai/llms.txt returned 404 on 2026-08-02).
+
+## Products
+
+- [Knowledge Engine Platform](https://www.accrete.ai/ke-platform): Core infrastructure that unifies fragmented enterprise data into dynamic knowledge graphs for agent reasoning with long-term memory.
+- [Argus](https://www.accrete.ai/argus): Government agent line for supply-chain FOCI risk, narrative intelligence, and information operations.
+- [Argus Supply Chain](https://www.accrete.ai/argus-supply-chain): Detection of hidden ownership ties and foreign-ownership-control-influence risk in supplier networks.
+- [Argus Cognitive Advantage](https://www.accrete.ai/argus-cognitive-advantage): Narrative and influence analysis for information operations.
+- [Argus for Law Enforcement](https://www.accrete.ai/argus-law-enforcement): Investigative application of the Argus agent line.
+- [Nebula ITSM](https://www.accrete.ai/nebula-itsi): Enterprise IT service management and change-risk prediction agent, shipped as a Snowflake Native App.
+- [Nebula Social](https://www.accrete.ai/nebula-social): Social narrative tracking, brand protection, and influence detection.
+- [Knowledge Functions](https://www.accrete.ai/knowledge-functions): The reusable functional building blocks of the Knowledge Engine.
+
+## Company
+
+- [Accrete](https://www.accrete.ai/): Company home.
+- [About](https://www.accrete.ai/about): Company overview, mission, leadership.
+- [Government](https://www.accrete.ai/government): Defense and national-security offering.
+- [Industries](https://www.accrete.ai/industries): Commercial industry coverage.
+- [Snowflake partnership](https://www.accrete.ai/partner/snowflake): Nebula ITSM on Snowflake Marketplace as a Native App.
+- [Press](https://www.accrete.ai/press): Press releases and coverage.
+- [Blog](https://www.accrete.ai/blog): Company blog ([RSS](https://www.accrete.ai/blog/rss.xml)).
+- [Careers](https://www.accrete.ai/careers)
+- [Investor relations](https://www.accrete.ai/investor-relations)
+- [Contact](https://www.accrete.ai/contact): Only public intake channel — there is no self-service sign-up or developer portal.
+
+## Security and compliance
+
+- [Trust Center](https://trust.accrete.ai/): SafeBase trust portal. Certifications listed: SOC 2 Type 1, CMMC Certified, DoD IL4, ITAR, NDAA. SOC 2 report, pentest report and network diagram available on request.
+- Responsible disclosure: no RFC 9116 security.txt is published; report vulnerabilities via the Trust Center or accrete.it@accrete.ai.
+- [Content signals](https://www.accrete.ai/robots.txt): `Content-Signal: search=yes,ai-train=no,use=reference`, with an express reservation of rights under Article 4 of EU Directive 2019/790. Amazonbot, Applebot-Extended, Bytespider, CCBot, ClaudeBot, Google-Extended, GPTBot and meta-externalagent are disallowed.
+
+## Legal
+
+- [Terms of Service](https://www.accrete.ai/terms)
+- [Privacy Policy](https://www.accrete.ai/privacy)
+- [Master Services Agreement](https://www.accrete.ai/master-service-agreement)
+
+## API surface
+
+Accrete has no public API surface as of 2026-08-02. Probed and confirmed absent: OpenAPI/Swagger at `/openapi.json`, `/openapi.yaml`, `/swagger.json`, `/v1/openapi.json`, `/api-docs`, `/docs`, `/redoc` on accrete.ai, www.accrete.ai, api.accrete.ai, docs.accrete.ai; GraphQL; hosted MCP server; A2A agent card at `/.well-known/agent-card.json` and `/.well-known/agent.json`; AsyncAPI or a webhook catalog; first-party SDKs on npm and PyPI. `api.accrete.ai` and `nebula.accrete.ai` resolve to Cloudflare but return 530 (no reachable origin). Integration with Accrete is a licensed, contract-mediated engagement, not a self-serve API.

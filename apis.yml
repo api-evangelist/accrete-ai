@@ -1,7 +1,20 @@
 aid: accrete-ai
 name: Accrete
-description: 'Accrete is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Accrete is a dual-use enterprise and government AI company founded in
+  2017 and headquartered at 17 State Street, New York, that licenses specialized Expert
+  AI Agents built on its Knowledge Engine Platform. The platform compresses tacit human
+  domain expertise and unstructured data into autonomously constructed knowledge graphs,
+  which its agents reason over with long-term memory and multi-agent collaboration.
+  Its product lines are Argus for government — supply-chain FOCI risk, narrative intelligence,
+  information operations and law enforcement — and Nebula for commercial customers,
+  covering IT service management and change-risk prediction (Nebula ITSM, shipped as
+  a Snowflake Native App) and social narrative and brand-influence detection (Nebula
+  Social). Customers include the U.S. Department of Defense, U.S. Special Operations
+  Command, the U.S. Army, and Fortune 500 companies in media and entertainment, consumer
+  goods and gaming. Accrete publishes no public developer API, SDK or machine-readable
+  API contract; its agents are delivered as licensed products and through partner marketplaces
+  such as Snowflake.'
+image: https://cdn.prod.website-files.com/6115505d46eace49d6ae6aa2/6148dd9cac5f4be986cf728e_OG.Accrete.jpg
 url: https://raw.githubusercontent.com/api-evangelist/accrete-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +25,15 @@ created: '2026-08-02'
 modified: '2026-08-02'
 tags:
 - Company
+- Artificial Intelligence
+- AI Agents
+- Knowledge Graphs
+- Defense
+- Government
+- IT Service Management
+- Supply Chain
+- Social Media Intelligence
+- Enterprise Software
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +42,60 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
+  url: https://www.accrete.ai/
+- type: SecondaryMarket
   url: https://www.hiive.com/securities/accrete-ai-stock
+- type: About
+  url: https://www.accrete.ai/about
+- type: Blog
+  url: https://www.accrete.ai/blog
+- type: BlogRSS
+  url: https://www.accrete.ai/blog/rss.xml
+- type: Press
+  url: https://www.accrete.ai/press
+- type: Support
+  url: https://www.accrete.ai/contact
+- type: TermsOfService
+  url: https://www.accrete.ai/terms
+- type: PrivacyPolicy
+  url: https://www.accrete.ai/privacy
+- type: Compliance
+  url: https://trust.accrete.ai/
+- type: Security
+  url: https://trust.accrete.ai/
+- type: TrustCenter
+  url: security/accrete-ai-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/accrete-ai-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/accrete-ai-domain-security.yml
+- type: Conformance
+  url: conformance/accrete-ai-conformance.yml
+- type: ContentSignal
+  url: well-known/accrete-ai-robots.txt
+- type: LLMsTxt
+  url: llms/accrete-ai-llms.txt
+x-enrichment:
+  date: '2026-08-02'
+  status: enriched
+  artifacts_added: 8
+  pass: local-v1
+x-contract-discovery:
+  date: '2026-08-02'
+  result: none
+  summary: No machine-readable API contract of any kind is published by Accrete. Products
+    are licensed agents delivered directly or via the Snowflake Marketplace.
+  hosts_probed: [accrete.ai, www.accrete.ai, api.accrete.ai, docs.accrete.ai, developer.accrete.ai,
+    app.accrete.ai, nebula.accrete.ai, mcp.accrete.ai, platform.accrete.ai]
+  openapi:
+    found: false
+    paths_probed: [/openapi.json, /openapi.yaml, /swagger.json, /v1/openapi.json, /api-docs,
+      /docs, /redoc]
+    statuses: 404 on accrete.ai / www.accrete.ai / docs.accrete.ai; 530 on api.accrete.ai
+      (Cloudflare, no reachable origin); NXDOMAIN for developer./app./mcp./platform.
+  graphql: {found: false, note: no /graphql surface on any resolving host}
+  mcp: {found: false, note: 'no hosted MCP server documented or resolving; mcp.accrete.ai
+      is NXDOMAIN'}
+  a2a: {found: false, paths_probed: [/.well-known/agent-card.json, /.well-known/agent.json],
+    note: 404 on all resolving hosts — no card written, per pipeline policy}
+  asyncapi: {found: false, note: no AsyncAPI document and no public webhook catalog}

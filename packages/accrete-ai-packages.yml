@@ -1,0 +1,25 @@
+generated: '2026-08-02'
+method: none
+source: registry searches, 2026-08-02
+packages: []
+notes: No first-party Accrete client libraries were found. Accrete publishes no public
+  developer API, so there is no SDK surface to catalog.
+searched:
+- registry: npm
+  query: accrete
+  result: 'name taken by an unrelated placeholder package (version 0.0.0, no description,
+    no homepage) — not first-party'
+- registry: npm
+  query: accrete-ai
+  result: 404
+- registry: pypi
+  query: accrete
+  result: 'unrelated project "Django Shared Schema Multi Tenant" — not first-party'
+- registry: pypi
+  query: accrete-ai
+  result: 404
+- registry: github
+  query: 'orgs accrete / accrete-ai / accreteai'
+  result: 'github.com/accreteai exists (org, name "Accrete AI", created 2024-05-07)
+    but has 0 public repositories; accrete and accrete-ai orgs are empty and unattributed.
+    No published source, .proto, or SDK.'

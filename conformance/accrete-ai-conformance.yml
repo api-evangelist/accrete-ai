@@ -1,0 +1,54 @@
+generated: '2026-08-02'
+method: searched
+source: https://trust.accrete.ai/
+scope: Company-level security and regulatory conformance. Accrete publishes no public
+  API contract, so no API-level (OAuth2/OIDC/RFC 9457/pagination/idempotency) conformance
+  can be asserted.
+standards:
+- id: soc2-type1
+  name: SOC 2 Type 1
+  conforms: true
+  evidence: Listed as a certification on https://trust.accrete.ai/; SOC 2 Report available
+    on request through the trust center.
+- id: cmmc
+  name: Cybersecurity Maturity Model Certification
+  conforms: true
+  evidence: 'Listed as "CMMC Certified" on https://trust.accrete.ai/ (SafeBase maturity:
+    na — certification badge, no maturity scoring).'
+- id: dod-il4
+  name: DoD Impact Level 4
+  conforms: true
+  evidence: Listed as "DoD IL4" on https://trust.accrete.ai/.
+- id: itar
+  name: International Traffic in Arms Regulations
+  conforms: true
+  evidence: Listed as "ITAR" on https://trust.accrete.ai/.
+- id: ndaa
+  name: National Defense Authorization Act
+  conforms: true
+  evidence: Listed as "NDAA" on https://trust.accrete.ai/.
+- id: iso-27001
+  name: ISO/IEC 27001
+  conforms: false
+  evidence: Not listed on the trust center as of 2026-08-02.
+- id: fedramp
+  conforms: false
+  evidence: Not listed on the trust center as of 2026-08-02.
+- id: hipaa
+  conforms: false
+  evidence: Not listed on the trust center as of 2026-08-02.
+- id: pci-dss
+  conforms: false
+  evidence: Not listed on the trust center as of 2026-08-02.
+- id: content-signals
+  name: Cloudflare Content Signals Policy
+  conforms: true
+  evidence: 'https://www.accrete.ai/robots.txt declares Content-Signal: search=yes,ai-train=no,use=reference
+    with an explicit EU DSM Directive Article 4 reservation of rights.'
+- id: oauth2
+  conforms: false
+  evidence: No public API or securityScheme surface found.
+- id: openapi
+  conforms: false
+  evidence: No OpenAPI/Swagger document found on any probed host (see x-contract-discovery
+    in apis.yml).
