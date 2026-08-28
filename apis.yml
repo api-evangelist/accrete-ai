@@ -14,6 +14,17 @@ description: 'Accrete is a dual-use enterprise and government AI company founded
   goods and gaming. Accrete publishes no public developer API, SDK or machine-readable
   API contract; its agents are delivered as licensed products and through partner marketplaces
   such as Snowflake.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://cdn.prod.website-files.com/6115505d46eace49d6ae6aa2/6148dd9cac5f4be986cf728e_OG.Accrete.jpg
 url: https://raw.githubusercontent.com/api-evangelist/accrete-ai/refs/heads/main/apis.yml
 x-type: company
