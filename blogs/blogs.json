@@ -2,20 +2,20 @@
   "repo": "accrete-ai",
   "feeds": [
     {
-      "source": "https://www.accrete.ai/about",
-      "feed_url": "https://www.accrete.ai/about",
+      "source": "https://www.accrete.ai/blog",
+      "feed_url": "https://www.accrete.ai/blog",
       "title": "",
       "saved": 0,
       "method": "none"
     },
     {
-      "source": "https://www.accrete.ai/blog",
-      "feed_url": "https://www.accrete.ai/blog",
+      "source": "https://www.accrete.ai/about",
+      "feed_url": "https://www.accrete.ai/about",
       "title": "",
       "saved": 0,
       "method": "none"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-08-30T22:33:40Z"
+  "fetched": "2026-09-06T19:17:18Z"
 }
