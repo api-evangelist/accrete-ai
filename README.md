@@ -64,5 +64,87 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Accrete is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.hiive.com/securities/accrete-ai-stock
+Accrete is a dual-use enterprise and government AI company founded in 2017 and headquartered at 17 State Street, New York, that licenses specialized Expert AI Agents built on its Knowledge Engine Platform. The platform compresses tacit human domain expertise and unstructured data into autonomously constructed knowledge graphs, which its agents reason over with long-term memory and multi-agent collaboration. Its product lines are Argus for government — supply-chain FOCI risk, narrative intelligence, information operations and law enforcement — and Nebula for commercial customers, covering IT service management and change-risk prediction (Nebula ITSM, shipped as a Snowflake Native App) and social narrative and brand-influence detection (Nebula Social). Customers include the U.S. Department of Defense, U.S. Special Operations Command, the U.S. Army, and Fortune 500 companies in media and entertainment, consumer goods and gaming. Accrete publishes no public developer API, SDK or machine-readable API contract; its agents are delivered as licensed products and through partner marketplaces such as Snowflake.
+
+**Areas:** Company · Artificial Intelligence · AI Agents · Knowledge Graph · Defense · Government · ITSM · Supply Chain · Social Media Intelligence · Enterprise Software
+
+## Accrete on APIs.io
+
+Everything profiled for Accrete is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/accrete-ai/](https://apis.io/providers/accrete-ai/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Accrete Ai Domain Security](https://apis.io/security/accrete-ai/accrete-ai-domain-security/)
+- [Accrete Ai Trust Center](https://apis.io/security/accrete-ai/accrete-ai-trust-center/)
+- [Accrete Ai Vulnerability Disclosure](https://apis.io/security/accrete-ai/accrete-ai-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.accrete.ai/)
+- [Support](https://www.accrete.ai/contact)
+- [Blog](https://www.accrete.ai/blog)
+- [Security](https://trust.accrete.ai/)
+- [Compliance](https://trust.accrete.ai/)
+- [Terms of service](https://www.accrete.ai/terms)
+- [Privacy policy](https://www.accrete.ai/privacy)
+
+## API Evangelist rating
+
+**Kin Score 20.1** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.3 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 36.8 |
+
+**Agent readiness 2.2** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | yes |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 27.3** — Government & Public Sector
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/accrete-ai/](https://apis.io/providers/accrete-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Accrete: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/accrete-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
