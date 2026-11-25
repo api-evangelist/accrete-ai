@@ -80,9 +80,9 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Accrete Ai Domain Security](https://apis.io/security/accrete-ai/accrete-ai-domain-security/)
-- [Accrete Ai Trust Center](https://apis.io/security/accrete-ai/accrete-ai-trust-center/)
-- [Accrete Ai Vulnerability Disclosure](https://apis.io/security/accrete-ai/accrete-ai-vulnerability-disclosure/)
+- [Accrete Domain Security](https://apis.io/security/accrete-ai/accrete-ai-domain-security/)
+- [Accrete Trust Center](https://apis.io/security/accrete-ai/accrete-ai-trust-center/)
+- [Accrete Vulnerability Disclosure](https://apis.io/security/accrete-ai/accrete-ai-vulnerability-disclosure/)
 
 ## Where to find this API
 
@@ -98,18 +98,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 20.1** — emerging · rubric 0.24.0 · scored 2026-10-17
+**Kin Score 20.7** — emerging · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 56.3 |
+| Discoverability | 57.1 |
 | Contract quality | 0.0 |
 | Contract governance | 18.2 |
-| Operational transparency | 10.5 |
+| Operational transparency | 9.5 |
 | Developer ergonomics | 7.1 |
-| Access clarity | 36.8 |
+| Access clarity | 40.4 |
 
-**Agent readiness 2.2** — human-only
+**Agent readiness 0.7** — human-only
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -125,13 +125,19 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Event Surface Described | — |
 | Agent Skills | — |
 | Well Known Catalog | — |
-| Consent Identity | yes |
+| Consent Identity | — |
 | Agent Card | — |
 | Dry Run Mode | — |
 | Delegated Identity | — |
 | Protected Resource Metadata | — |
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | yes |
 
 **Regulatory alignment 27.3** — Government & Public Sector
 
